@@ -6,6 +6,7 @@ import TaskList2 from '@/components/ejUseState/TaskList2'
 import ChangeStyle from '@/components/ejUseState/ChangeStyle'
 import EjApiCall from '@/components/ejUseEffect/ejApiCall'
 import Clocke from '@/components/ejUseEffect/Clocke'
+import FormValidation from '@/components/ejUseEffect/FormValidation'
 
 export default function Home() {
   return (
@@ -28,6 +29,8 @@ export default function Home() {
        <EjApiCall></EjApiCall>
        <br/>
        <Clocke></Clocke>
+       <br/>
+       <FormValidation></FormValidation>
       </main>
     </>
   )
