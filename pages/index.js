@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import Counter from '@/components/ejUseState/Counter'
 import TaskList from '@/components/ejUseState/TaskList'
+import TaskList2 from '@/components/ejUseState/TaskList2'
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
        <Counter></Counter>
        <br/>
        <TaskList></TaskList>
+       <br/>
+       <TaskList2></TaskList2>
+       <br/>
       </main>
     </>
   )
