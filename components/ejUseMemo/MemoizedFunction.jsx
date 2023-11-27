@@ -1,8 +1,20 @@
-import React from 'react'
+import React, { useMemo } from 'react'
 
 const MemoizedFunction = () => {
+
+    useMemo(() => {
+        // Funcion que ejecuta para calcular valor
+        const handleClick = () => {
+            console.log('Botón clicado');
+          };
+          return handleClick()
+    }, []) // Valor que escucha 
+    
+
   return (
-    <div>MemoizedFunction</div>
+    <div>
+      {/* componente hijo */}
+    </div>
   )
 }
 
