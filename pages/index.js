@@ -7,6 +7,7 @@ import ChangeStyle from '@/components/ejUseState/ChangeStyle'
 import EjApiCall from '@/components/ejUseEffect/ejApiCall'
 import Clocke from '@/components/ejUseEffect/Clocke'
 import FormValidation from '@/components/ejUseEffect/FormValidation'
+import MemoizedFunction from '@/components/ejUseMemo/MemoizedFunction'
 
 export default function Home() {
   return (
@@ -31,6 +32,8 @@ export default function Home() {
        <Clocke></Clocke>
        <br/>
        <FormValidation></FormValidation>
+       <br/>
+       <MemoizedFunction></MemoizedFunction>
       </main>
     </>
   )
