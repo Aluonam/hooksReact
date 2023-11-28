@@ -4,6 +4,10 @@ import Counter from '@/components/ejUseState/Counter'
 import TaskList from '@/components/ejUseState/TaskList'
 import TaskList2 from '@/components/ejUseState/TaskList2'
 import ChangeStyle from '@/components/ejUseState/ChangeStyle'
+import EjApiCall from '@/components/ejUseEffect/ejApiCall'
+import Clocke from '@/components/ejUseEffect/Clocke'
+import FormValidation from '@/components/ejUseEffect/FormValidation'
+import MemoizedFunction from '@/components/ejUseMemo/MemoizedFunction'
 
 export default function Home() {
   return (
@@ -22,6 +26,14 @@ export default function Home() {
        <TaskList2></TaskList2>
        <br/>
        <ChangeStyle></ChangeStyle>
+       <br/>
+       <EjApiCall></EjApiCall>
+       <br/>
+       <Clocke></Clocke>
+       <br/>
+       <FormValidation></FormValidation>
+       <br/>
+       <MemoizedFunction></MemoizedFunction>
       </main>
     </>
   )
