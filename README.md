@@ -16,3 +16,6 @@ Ejercicio 3: Evitar Renders Innecesarios de Componentes Hijos
 
 **USEREDUCER**
 Ejercicio: Cambio de texto al hacer Check
+
+**USEREF**
+Ejercicio: Alerta con código hexadecimal y nombre del color seleccionado
