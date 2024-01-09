@@ -10,6 +10,10 @@ const ColorNameUseRef = () => {
         const title = txtTitle.current.value;
         const color = hexColor.current.value;
         alert(`${title}, ${color}`)
+
+        //Devolver a valor original:
+        txtTitle.current.value = "";
+        hexColor.current.value = ""
     }
   return (
     <div>
