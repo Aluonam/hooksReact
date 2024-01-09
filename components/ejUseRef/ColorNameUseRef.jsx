@@ -5,10 +5,16 @@ const ColorNameUseRef = () => {
     const txtTitle = useRef();
     const hexColor = useRef();
 
+    const submit = (e)=>{
+        e.preventDefault()
+        const title = txtTitle.current.value;
+        const color = hexColor.current.value;
+        alert(`${title}, ${color}`)
+    }
   return (
     <div>
 
-        <form>
+        <form onSubmit={submit}>
             <input 
                 type='text'
                 ref={txtTitle}
