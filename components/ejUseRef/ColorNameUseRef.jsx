@@ -14,7 +14,10 @@ const ColorNameUseRef = () => {
                 ref={txtTitle}
                 placeholder='Color title'
             />
-            <input></input>
+            <input
+                type='color'
+                ref={hexColor}
+            />
             <button>Add</button>
         </form>
 
