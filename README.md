@@ -13,3 +13,6 @@ Ejercicio 3: Validación de formulario
 Ejercicio 1: Memoización de Funciones
 Ejercicio 2: Comparación de Objetos o Listas
 Ejercicio 3: Evitar Renders Innecesarios de Componentes Hijos
+
+**USEREDUCER**
+Ejercicio: Cambio de texto al hacer Check
