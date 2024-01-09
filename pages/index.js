@@ -9,6 +9,7 @@ import Clocke from '@/components/ejUseEffect/Clocke'
 import FormValidation from '@/components/ejUseEffect/FormValidation'
 import MemoizedFunction from '@/components/ejUseMemo/MemoizedFunction'
 import CheckboxUseReducer from '@/components/ejUserReducer/CheckboxUseReducer'
+import ColorNameUseRef from '@/components/ejUseRef/ColorNameUseRef'
 
 export default function Home() {
   return (
@@ -37,6 +38,8 @@ export default function Home() {
        <MemoizedFunction></MemoizedFunction>
        <br/>
        <CheckboxUseReducer></CheckboxUseReducer>
+       <br/>
+       <ColorNameUseRef></ColorNameUseRef>
       </main>
     </>
   )
