@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useReducer } from 'react'
 
 const CheckboxUseReducer = () => {
+
+    const [checked, setChecked] = useReducer(
+        (checked)=> !checked,
+        false
+    )
+
   return (
-    <div>CheckboxUseReducer</div>
+    <div>
+
+
+
+    </div>
   )
 }
 
