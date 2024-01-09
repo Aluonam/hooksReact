@@ -1,8 +1,19 @@
 import React from 'react'
 
 const ColorNameUseRef = () => {
+
+
   return (
-    <div>ColorNameUseRef</div>
+    <div>
+
+        <form>
+            <input></input>
+            <input></input>
+            <button>Add</button>
+        </form>
+
+
+    </div>
   )
 }
 
