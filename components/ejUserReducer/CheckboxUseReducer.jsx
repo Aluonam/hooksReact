@@ -10,7 +10,14 @@ const CheckboxUseReducer = () => {
   return (
     <div>
 
-
+        <input
+            type='checkbox'
+            value={checked}
+            onChange={setChecked}
+        />
+        <label>
+            {checked ? "checked" : "not checked"}
+        </label>
 
     </div>
   )
