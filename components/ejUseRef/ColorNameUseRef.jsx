@@ -9,7 +9,11 @@ const ColorNameUseRef = () => {
     <div>
 
         <form>
-            <input></input>
+            <input 
+                type='text'
+                ref={txtTitle}
+                placeholder='Color title'
+            />
             <input></input>
             <button>Add</button>
         </form>
