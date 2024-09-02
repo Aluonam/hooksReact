@@ -19,8 +19,15 @@ const ShowCounterHook = () => {
         <button onClick={reset}>reset</button>
     </div> 
     <div style={{width:'300px', height:'150px', border: '1px solid mediumseagreen', backgroundColor:'honeydew', display:'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center'}}>
+        <h3>Both counters are the same customHook</h3>
         <div>{counterA.counterDouble}</div>
+        <button onClick={counterA.increaseDouble}>+</button>
+        <button onClick={counterA.decrementDouble}>-</button>
+        <button onClick={counterA.resetDouble}>reset</button>
         <div>{counterB.counterDouble}</div>
+        <button onClick={counterB.increaseDouble}>+</button>
+        <button onClick={counterB.decrementDouble}>-</button>
+        <button onClick={counterB.resetDouble}>reset</button>
     </div>
     </>
   )
