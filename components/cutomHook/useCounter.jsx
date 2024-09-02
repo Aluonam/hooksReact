@@ -12,7 +12,10 @@ const useCounter = () => {
 export default function App(){
    return (
     <div>
-   
+      <div>{counter}</div>
+      <button onClick={()=>increase}>+</button>
+      <button onClick={()=>decrement}>-</button>
+      <button onClick={()=>reset}>reset</button>
     </div>
    )
 }
