@@ -10,8 +10,7 @@ import FormValidation from '@/components/ejUseEffect/FormValidation'
 import MemoizedFunction from '@/components/ejUseMemo/MemoizedFunction'
 import CheckboxUseReducer from '@/components/ejUserReducer/CheckboxUseReducer'
 import ColorNameUseRef from '@/components/ejUseRef/ColorNameUseRef'
-import { MainThemeColor } from '@/components/ejUseContext/MainThemeColor/MainThemeColor'
-import { ThemeContext } from '@/components/ejUseContext/context/ThemeChangeContext'
+import ShowCounterHook from '@/components/cutomHook/showCounterHook'
 
 export default function Home() {
   return (
@@ -44,7 +43,8 @@ export default function Home() {
           <CheckboxUseReducer></CheckboxUseReducer>
           <br/>
           <ColorNameUseRef></ColorNameUseRef>
-  
+          <br/>
+          <ShowCounterHook></ShowCounterHook>
           
 
       </main>

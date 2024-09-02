@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 const useCounter = () => {
  const [counter, setCounter] = useState(0);
@@ -7,15 +7,12 @@ const useCounter = () => {
  const decrement = ()=>setCounter(counter-1)
  const reset = ()=>setCounter(0)
   
+ return{ //No vamos a pasar setCounter porque entonces el manejo del estado volveria a estar fuera del hook, y he creado el customehook precisamente para manejar el estado aquí.
+  counter,
+  increase,
+  decrement,
+  reset
+ }
 }
 
-export default function App(){
-   return (
-    <div>
-      <div>{counter}</div>
-      <button onClick={()=>increase}>+</button>
-      <button onClick={()=>decrement}>-</button>
-      <button onClick={()=>reset}>reset</button>
-    </div>
-   )
-}
+export default useCounter;
