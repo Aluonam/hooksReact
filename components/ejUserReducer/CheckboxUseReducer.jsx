@@ -9,7 +9,7 @@ const CheckboxUseReducer = () => {
 
   return (
     <div>
-
+        <></>
         <input
             type='checkbox'
             value={checked}

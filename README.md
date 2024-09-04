@@ -14,6 +14,10 @@ Ejercicio 1: Memoización de Funciones
 Ejercicio 2: Comparación de Objetos o Listas
 Ejercicio 3: Evitar Renders Innecesarios de Componentes Hijos
 
+**CUSTOMHOOK**
+Ejercicio 1: CustomHook contador básico.
+Ejercicio 2: Ejemplo de contador doble usando el mismo customHook.
+
 **USEREDUCER**
 Ejercicio: Cambio de texto al hacer Check
 
